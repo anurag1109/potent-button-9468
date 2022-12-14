@@ -1,0 +1,434 @@
+/* navBar */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    z-index: 10;
+    top: 0;
+}
+
+.nav_Bar {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_Bar_Logo {
+
+    display: flex;
+    align-items: center;
+}
+
+.nav_Bar_Logo>img {
+    width: 18rem;
+    /* height: 30px; */
+    display: flex;
+    align-items: center;
+}
+
+.nav_Bar_Box {
+    /* width: 55%; */
+    display: flex;
+    /* align-content: center; */
+}
+
+.main_Nav_Bar {
+    display: flex;
+    /* align-content: center; */
+
+}
+
+.main_Nav_Bar>li {
+    display: flex;
+    margin: 0 1rem;
+    align-items: center;
+}
+
+.main_Nav_Bar>li>a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.main_Nav_Bar .nav_Button {
+    border-radius: 4px;
+    border: none;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    color: white;
+
+
+}
+
+.main_Nav_Bar .purple {
+    background-color: rgb(138, 6, 203);
+}
+
+.main_Nav_Bar .orange {
+    background-color: rgb(240, 160, 69);
+}
+
+
+/* getstarted */
+
+.get_Started_Container {
+    background-color: rgb(245, 236, 224);
+}
+
+.get_Started_heading1 {
+    padding-top: 150px;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.get_Started_heading2 {
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 100;
+    color: rgb(72, 69, 69);
+    margin-bottom: 1.5rem;
+}
+
+
+.get_Started_Form {
+    margin-top: 4rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+
+}
+
+.get_started_Input {
+    width: 50%;
+    height: 4.5rem;
+    padding: 0 25px;
+    border-radius: 40px;
+    font-size: larger;
+    border: 2px solid rgb(255, 94, 0);
+
+}
+
+.get_started_Button {
+    position: absolute;
+    padding: 0 45px;
+    border-radius: 40px;
+    height: 3.5rem;
+    background-color: rgb(243, 116, 62);
+    border: none;
+    top: .6rem;
+    right: 23.6%;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.get_Started_para {
+    margin: 2rem;
+    text-align: center;
+}
+
+.get_Started_para>span {
+    margin: 1.5rem;
+    font-size: large;
+
+}
+
+.get_Started_para>span>svg {
+    position: relative;
+    color: rgb(157, 71, 215);
+    bottom: -3px;
+
+}
+
+.get_started_Banner>img {
+    width: 100%;
+}
+
+/* allstakelogos */
+
+.stakeslogos {
+    margin: 5rem 3rem;
+}
+
+.allStakesLogo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+
+
+.singleSolutionhead>h2 {
+    text-align: center;
+    font-size: 2.375rem;
+    font-weight: 900;
+    margin: 2rem;
+}
+
+.singleSolutionhead>p {
+    text-align: center;
+    color: gray;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+
+.singleSolutionallbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+
+.singleSolutionallbox svg {
+    color: blueviolet;
+}
+
+.singleSolutionbox {
+    border: 1px solid black;
+
+    padding: 4rem;
+    width: 37%;
+    border-radius: 18px;
+}
+
+.singleSolutionrow1 {
+    display: flex;
+    /* padding: 3rem; */
+}
+
+.singleSolutionrow1 h3 {
+    margin: 15px 0;
+    color: rgb(55, 54, 54);
+}
+
+.singleSolutionrow1 p {
+    line-height: 25px;
+    color: gray;
+}
+
+.singleSolutionrow2 h4 {
+    margin: 1.5rem 0;
+    color: rgb(55, 54, 54);
+}
+
+.singleSolutionrow2list {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+}
+
+.singleSolutionrow2list1>div,
+.singleSolutionrow2list2>div {
+    margin: 10px 0;
+}
+
+.singleSolutionrow2 button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 45px;
+    background-color: rgb(114, 54, 199);
+    color: white;
+    font-size: 15px;
+}
+
+.awardcontainer {
+    background-color: rgb(91, 91, 247);
+    margin-top: 30px;
+}
+
+.awardhead {
+    text-align: center;
+    font-weight: 550;
+    padding-top: 4rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+}
+
+.awardlist {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.p-logo-item {
+    margin: 6px;
+}
+
+/* cards */
+
+.doItAll {
+    margin: 3rem 0;
+}
+
+.doIttAlltitle {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    margin-top: 3rem;
+
+}
+
+.doIttAlltitle h2 {
+    font-weight: 700;
+    font-size: 2.75rem;
+    margin-bottom: 2rem;
+}
+
+.doIttAlltitle p {
+    font-size: large;
+    margin: 2rem;
+    line-height: 1.5rem;
+    color: gray;
+}
+
+
+.cardrow {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 10px;
+    gap: 40px 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.card {
+    text-decoration: none;
+}
+
+.cardbody {
+    padding: 2.5rem 1rem;
+    background-color: rgb(245, 245, 251);
+    border-radius: 10px;
+}
+
+.cardrow h5 {
+    text-align: center;
+    color: rgb(65, 63, 63);
+    font-size: large;
+    /* margin-bottom: 2rem; */
+}
+
+.card-img {
+    margin: auto;
+    width: 30%;
+    margin-bottom: 2.5rem;
+}
+
+.lozad {
+    width: 100%;
+
+}
+
+/* footer */
+.footer {
+    background-color: rgb(85, 85, 246);
+}
+
+.footerlogin {
+    display: flex;
+    padding: 2rem;
+}
+
+.footerlogindata {
+    width: 100%;
+}
+
+.footerlogindata h3 {
+    color: rgb(24, 24, 24);
+    font-size: 2rem;
+    margin: 2rem;
+
+}
+
+.footerloginhere {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.footerloginentry {
+    width: 100%;
+}
+
+.form-group {
+    width: 80%;
+    margin: 1rem 0;
+
+}
+
+.form-control {
+    width: 100%;
+    height: 3rem;
+    padding: 3px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: rgb(18, 17, 17);
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+    border: none;
+
+}
+
+.footerloginbutton {
+    display: flex;
+    margin: 2rem;
+}
+
+.footerloginbutton button {
+    margin: 1rem;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: large;
+}
+
+.orange {
+    background-color: orange;
+    color: aliceblue;
+}
+
+.footerlistbox {
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 2rem 4rem; */
+}
+
+.footer-widget {
+    padding: 10px;
+}
+
+.widget-title {
+    margin: 0 10px 30px 10px;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: normal;
+}
+
+.footer-menu li {
+    margin: 15px;
+    font-weight: normal;
+}
+
+.footer-menu li a {
+    color: aliceblue;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+.socials-icon {
+    width: 20px;
+}
