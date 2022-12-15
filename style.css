@@ -5,6 +5,13 @@
 
 }
 
+a:hover,
+svg:hover,
+button:hover {
+    opacity: .6;
+
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -51,7 +58,7 @@ nav {
 }
 
 .main_Nav_Bar>li>a {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-decoration: none;
     color: black;
 }
@@ -75,6 +82,17 @@ nav {
 .main_Nav_Bar .orange {
     background-color: rgb(240, 160, 69);
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* getstarted */
@@ -187,8 +205,11 @@ nav {
 
 .singleSolutionallbox {
     display: flex;
-    justify-content: space-between;
-    padding: 2rem 4rem;
+    width: 100%;
+    justify-content: center;
+    padding: 2rem 0rem;
+    gap: 3rem;
+    /* animated gap 15rem */
 }
 
 .singleSolutionallbox svg {
@@ -197,9 +218,8 @@ nav {
 
 .singleSolutionbox {
     border: 1px solid black;
-
     padding: 4rem;
-    width: 37%;
+    width: 30%;
     border-radius: 18px;
 }
 
@@ -322,7 +342,7 @@ nav {
 
 .card-img {
     margin: auto;
-    width: 30%;
+    width: 45%;
     margin-bottom: 2.5rem;
 }
 
@@ -331,14 +351,33 @@ nav {
 
 }
 
+/* bottomlogin */
+.bottomlogin {
+    padding: 2rem;
+}
+
+.get_Started_heading1.bottom {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 550;
+    padding: .7rem;
+}
+
+.get_Started_heading2.bottom {
+    font-weight: 800;
+    color: rgb(153, 86, 240);
+}
+
 /* footer */
 .footer {
     background-color: rgb(85, 85, 246);
+    padding: 0 1.5rem;
 }
 
 .footerlogin {
     display: flex;
     padding: 2rem;
+
 }
 
 .footerlogindata {
@@ -348,7 +387,8 @@ nav {
 .footerlogindata h3 {
     color: rgb(24, 24, 24);
     font-size: 2rem;
-    margin: 2rem;
+    margin: 1.5rem 2rem;
+    color: white;
 
 }
 
@@ -369,14 +409,17 @@ nav {
 
 }
 
+.form-control::placeholder {
+    color: rgb(255, 255, 255) !important;
+}
+
 .form-control {
     width: 100%;
     height: 3rem;
     padding: 3px 15px;
     font-size: 1rem;
     border-radius: 5px;
-    background-color: rgb(18, 17, 17);
-    opacity: 0.5;
+    background-color: rgba(29, 27, 27, 0.5);
     color: rgb(255, 255, 255);
     border: none;
 
@@ -384,7 +427,7 @@ nav {
 
 .footerloginbutton {
     display: flex;
-    margin: 2rem;
+    margin: 1rem 1rem;
 }
 
 .footerloginbutton button {
@@ -403,7 +446,8 @@ nav {
 .footerlistbox {
     display: flex;
     justify-content: space-evenly;
-    /* padding: 2rem 4rem; */
+    border-top: 1px solid rgb(102, 100, 100);
+    padding: 2rem 0 0 0
 }
 
 .footer-widget {
@@ -418,7 +462,7 @@ nav {
 }
 
 .footer-menu li {
-    margin: 15px;
+    margin: 10px;
     font-weight: normal;
 }
 
@@ -431,4 +475,46 @@ nav {
 
 .socials-icon {
     width: 20px;
+}
+
+.footermedia {
+    border-top: 1px solid rgb(102, 100, 100);
+    margin: 2rem 2rem 0rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.foterlogopara {
+    margin: 1rem 0;
+    color: white;
+    line-height: 1rem;
+    font-size: large;
+
+}
+
+.socials-item {
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+.socials-icon {
+
+    fill: white;
+}
+
+.copyright>a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.footeraddress>p,
+.footeraddress a,
+.footeraddress span {
+    margin: 6px 0;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
 }

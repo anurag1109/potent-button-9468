@@ -1,0 +1,93 @@
+/* product */
+
+a:hover,
+button:hover {
+    opacity: .6;
+}
+
+.product_Container {
+    display: flex;
+}
+
+
+.product_Container {
+    background-color: rgb(247, 243, 238);
+    padding: 4rem 3rem 3rem 4rem;
+}
+
+.product_heading1 {
+    padding-top: 100px;
+    /* text-align: center; */
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.product_heading2 {
+    font-size: 1.8rem;
+    /* text-align: center; */
+    font-weight: 100;
+    color: rgb(72, 69, 69);
+    margin-bottom: 1.5rem;
+}
+
+
+.product_Form {
+    margin-top: 4rem;
+    display: flex;
+    width: 100%;
+    /* justify-content: center; */
+    position: relative;
+
+}
+
+.product_Input {
+    width: 80%;
+    height: 4.5rem;
+    padding: 0 25px;
+    border-radius: 40px;
+    font-size: larger;
+    border: 2px solid rgb(255, 94, 0);
+
+}
+
+.product_Button {
+    position: absolute;
+    padding: 0 45px;
+    border-radius: 40px;
+    height: 3.5rem;
+    background-color: rgb(243, 116, 62);
+    border: none;
+    top: .6rem;
+    right: 12.6%;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.product_para {
+    margin: 2rem .5rem;
+    /* text-align: center; */
+}
+
+.product_para>span {
+    margin: 1.5rem;
+    font-size: large;
+
+}
+
+.product_para>span>svg {
+    position: relative;
+    color: rgb(157, 71, 215);
+    bottom: -3px;
+
+}
+
+.productbanner {
+    width: 60%;
+}
+
+.productbanner>img {
+    width: 100%;
+}
