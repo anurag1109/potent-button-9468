@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topcontainer {
+    margin-top: 2rem;
+    background-image: url("./cta-engage.webp");
+    padding: 3rem;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: rgb(243, 248, 249);
+}
+
+.topcontainer h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.topcontainer p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.topcontainer button {
+    margin-top: 2rem;
+    padding: 1.2rem;
+    color: white;
+    background-color: rgb(241, 124, 74);
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.posthead {
+    padding: .5rem 1.5rem;
+    margin: 1rem 0;
+}
+
+.posthead h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.posthead>div {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.allpostdiv>a>span {
+    display: block;
+    font-size: larger;
+    margin: 2.5rem 0;
+    font-weight: bold;
+    color: gray;
+}
+
+
+.flexdiv {
+    display: flex;
+    padding-top: 2rem;
+    gap: 25px;
+    margin: auto;
+}
+
+.flexdiv>div>div> {
+    width: 33%;
+}
+
+.flexdiv img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.flexdiv>div>p {
+    margin: 1rem .5rem;
+    font-size: 1.3rem;
+    color: rgb(109, 109, 109);
+    line-height: 25px;
+}
+
+.bottomcontainer {
+    margin: 3rem 0 00;
+    background-color: rgb(243, 243, 243);
+    padding: 4rem;
+}
+
+.bottomcontainer>h1 {
+    text-align: center;
+    font-size: 2.3rem;
+    color: rgb(72, 71, 71);
+}
+
+.bottomcontainer>p {
+    text-align: center;
+    margin: 1rem;
+    font-size: larger;
+    color: rgb(96, 95, 95);
+}
+
+.bottomcontainer button {
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+    color: white;
+    background-color: rgb(235, 121, 49);
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}

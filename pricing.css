@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* topsection */
+
+.topsection {
+    background-color: rgb(95, 95, 252);
+    padding: 4rem;
+    margin-bottom: 5rem;
+}
+
+
+
+.pricingsectitle>h1,
+.pricingsectitle>h2 {
+    text-align: center;
+    color: white;
+    margin: 15px;
+    font-weight: normal;
+}
+
+.pricingsectitle>h1 {
+    font-size: 2.8rem;
+}
+
+.linkbox {
+    display: flex;
+    background-color: white;
+    margin: 4rem 1rem;
+    padding: 1rem;
+    border-radius: 30px;
+    justify-content: space-evenly;
+}
+
+.linkbox>div {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    border-radius: 50px;
+    background-color: rgb(183, 222, 245);
+    padding: 1.5rem 2rem;
+}
+
+.link>h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.link>small {
+    display: block;
+    text-align: center;
+}
+
+.bottompricebox {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    /* left: 20rem;
+    top: 39.6rem; */
+    bottom: -5.6rem;
+}
+
+.pricingbuttonbox {
+    display: flex;
+    background-color: rgb(83, 189, 228);
+    border-radius: 30px;
+}
+
+.pricingbuttonlist {
+    /* background-color: white; */
+    width: 33%;
+    padding: 1.2rem 2rem;
+    border: none;
+    border-radius: 30px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+}
+
+.pricingbuttonlist button {
+    /* background-color: white; */
+    border: none;
+    background-color: rgb(83, 189, 228);
+
+}
+
+.pricingbuttonlist span {
+    /* margin: auto; */
+    color: rgb(85, 130, 174);
+    font-weight: bold;
+
+}
+
+
+/* middle pricing section */
+
+.svginline {
+    width: 12px;
+    background-color: rgb(190, 189, 189);
+    border-radius: 50px;
+    padding: 2px;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    gap: 15px;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.column {
+    width: 24%;
+    background-color: antiquewhite;
+    padding: 10px;
+    position: relative;
+    padding-bottom: 4rem;
+    border-radius: 10px;
+}
+
+.card {
+    width: 90%;
+    margin: auto;
+}
+
+.sticky {}
+
+.card span,
+p {
+    display: block;
+    text-align: center;
+
+
+}
+
+.text-muted {
+    font-size: large;
+    color: rgb(232, 181, 86);
+}
+
+.card li {
+    display: flex;
+    gap: 8px;
+
+}
+
+.textcenter {
+    width: fit-content;
+    margin: auto;
+    background-color: rgb(248, 208, 159);
+    padding: 6px 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.pricing-card-title {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin: 10px
+}
+
+.dollar-symbol {
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.price-value {
+    font-size: 4rem;
+}
+
+.list-unstyled {
+    padding: 10px;
+}
+
+.card-footer {
+    background-color: rgb(225, 187, 141);
+    padding: 15px 30px;
+    margin: auto;
+    height: 20px;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 20px;
+    left: 2.8rem;
+}
+
+.card-footer>a {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.me-3 {
+    font-size: larger;
+    color: white;
+}
+
+.fa-w-14 {
+    background-color: rgb(136, 136, 75, 0);
+    fill: aliceblue;
+}
+
+.blue {
+    background-color: rgb(191, 234, 250);
+}
+
+.darkblueback {
+    background-color: rgb(137, 202, 240);
+}
+
+.darkbluetext {
+    color: rgb(107, 185, 230);
+}
+
+.green {
+    background-color: rgb(214, 243, 167);
+}
+
+.darkgreenback {
+    background-color: rgb(173, 231, 119);
+}
+
+.darkgreentext {
+    color: rgb(125, 198, 57);
+}
+
+.darkblue {
+    background-color: rgb(183, 215, 255);
+}
+
+.darkdarkblueback {
+    background-color: rgb(130, 173, 219);
+}
+
+.darkdarkbluetext {
+    color: rgb(82, 157, 184);
+}

@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+    /* background-color: rgb(246, 243, 230); */
+
+}
+
+body {
+    background-image: url(./engagebay.icon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(70px)
+}
+
+#main_cont {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 36vw;
+    height: 104vh;
+    margin: auto;
+
+    padding: 0rem 2rem;
+
+}
+
+#form {
+    padding: 30px;
+    background-color: rgb(251, 248, 244);
+    width: 100%;
+    display: grid;
+    align-content: flex-start;
+
+
+}
+
+#form>img {
+    width: 70%;
+    margin: auto;
+
+}
+
+#form>p {
+    font-size: 35px;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+#form>form {
+    display: grid;
+    gap: 7px;
+    text-align: left;
+
+}
+
+#form>form>input:not(#submit) {
+    padding: 15px;
+    border: 0.1px solid rgb(215, 212, 212);
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+
+}
+
+#submit {
+    margin: 10px 0;
+    background-color: #f2603e;
+    color: white;
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    border: 1px solid rgb(242, 96, 62);
+}
+
+#submit+div>p {
+    margin: 5px;
+    text-align: center;
+    line-height: 20px;
+    color: grey;
+    /* line-height: 15px; */
+
+
+}
+
+#submit+div a {
+    text-decoration: none;
+    color: grey;
+
+}
+
+#back_svg {
+    background: linear-gradient(145deg, rgba(43, 31, 238, 1) 0%, rgba(44, 134, 179, 1) 59%, rgba(6, 198, 237, 1) 100%);
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    padding: 20px 0;
+}
+
+#back_svg>:first-child {
+    display: flex;
+    width: 80%;
+    margin-left: 15%;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 0 10px;
+    gap: 20px;
+    background: linear-gradient(145deg, rgba(31, 117, 238, 1) 0%, rgba(44, 134, 179, 1) 56%, rgba(6, 198, 237, 1) 100%);
+}
+
+#back_svg>:first-child>img {
+    border-radius: 50%;
+    border: 5px solid grey;
+
+}
+
+#back_svg>:last-child>img {
+
+    width: 70%;
+}
+
+#back_svg>:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media all and (min-width:1250px) {
+    #form {
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width:950px) {
+    #back_svg {
+        visibility: hidden;
+    }
+
+    #main_cont {
+        grid-template-columns: 1fr;
+    }
+
+    #form {
+        width: 450px;
+        margin: auto;
+    }
+
+}

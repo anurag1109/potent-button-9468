@@ -1,3 +1,5 @@
+// product dropdown
+
 const button = document.querySelectorAll(".button")
 let button1 = document.querySelector(".button-1")
 let button2 = document.querySelector(".button-2")
