@@ -9,11 +9,13 @@
     <link rel="shortcut icon" href="engagebay.icon.webp">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./hover.css">
+    <link rel="stylesheet" href="./navigation.css">
 </head>
 
 <body>
 
     <nav>
+
         <div class="nav_Bar">
             <a class="nav_Bar_Logo" href="/index.html"><img src="engagebay-logo.svg" alt=""></a>
             <div class="nav_Bar_Box">
@@ -421,7 +423,7 @@
                         <a href="./blog.html">Blog</a>
                     </li>
                     <li>
-                        <a href="./login.html">Login</a>
+                        <a class="afterlogin" href="./login.html" style="color: rgb(231, 74, 74);">Login</a>
                     </li>
                     <li>
                         <a href="https://meetings.engagebay.com/book-demo-free"><button class="nav_Button purple">Free
@@ -432,7 +434,63 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="temp" style="margin: 0; border-top: 1px solid black;">
+                _____<br>
+                _____<br>
+
+
+                <div class="smallnav_Bar">
+                    <a class="nav_Bar_Logon" href="/index.html"><img src="engagebay-logo.svg" alt=""></a>
+                    <div class="nav_Bar_Boxn">
+                        <ul class="main_Nav_Barn" style="list-style-type: none;">
+                            <hr>
+                            <li class="product-hovern">
+                                <a href="./product.html">Product </a>
+                                <svg style="width: 11px; margin-left: 5px;margin-top: 4px; opacity: 0.6;"
+                                    aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down"
+                                    role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                    class="icon-down-caretn">
+                                    <path fill="#3e3c3c"
+                                        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+                                        class=""></path>
+                                </svg>
+
+
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="./pricing.html">Pricing</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="./blog.html">Blog</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="./login.html">Login</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="https://meetings.engagebay.com/book-demo-free">
+                                    <div class="nav_Buttonn purplen">Free
+                                        Demo</div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./signup.html">
+                                    <div class="nav_Buttonn orangen">Free Signup</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
+
     </nav>
 
 
@@ -919,8 +977,6 @@
 
     </section>
 
-
-
     <section class="awardSec">
         <div class="awardcontainer">
             <h4 class="awardhead">HAPPY CUSTOMERS SHARE GREAT REVIEWS
@@ -1359,16 +1415,16 @@
                     <div>
                         <h3 class="text-white">Get Started</h3>
                     </div>
-                    <form action="">
+                    <form class="signupform" id="">
                         <div class="footerloginhere">
                             <div class="footerloginentry">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Name" required="" name="name"
-                                        id="f_name">
+                                    <input type="text" class="form-control" id="name" placeholder="Name" required=""
+                                        name="name">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="url" class="form-control" placeholder="Website URL" id="f_website"
+                                    <input type="url" class="form-control" id="website" placeholder="Website URL"
                                         required="" name="website" onblur="_eb__setAutoFillWebsitePort(this)">
                                 </div>
 
@@ -1376,7 +1432,7 @@
                             <div class="footerloginentry">
 
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Username" id="f_email"
+                                    <input type="email" class="form-control" placeholder="Username" id="username"
                                         required="" name="email">
                                 </div>
 
@@ -1389,8 +1445,8 @@
                         </div>
 
                         <div class="footerloginbutton">
-                            <button class="orange">SIGNUP FOR FREE</button>
-                            <button>SCHEDULE A CALL</button>
+                            <button class="orange" id="password"> SIGNUP FOR FREE</button>
+                            <button> SCHEDULE A CALL</button>
                         </div>
                     </form>
 
@@ -1573,7 +1629,8 @@
         </div>
     </section>
 
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
+    <script src="./script/index.js"></script>
 
 </body>
 

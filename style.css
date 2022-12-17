@@ -518,3 +518,28 @@ nav {
     font-size: 14px;
     text-decoration: none;
 }
+
+
+
+
+
+
+.temp {
+    display: none;
+}
+
+@media screen and (min-width:300px) and (max-width:1015px) {
+    .temp {
+        display: block;
+    }
+
+    .nav_Bar_Box {
+        display: none;
+    }
+
+    .nav_Bar {
+        justify-content: space-between;
+        padding: 0 4rem;
+    }
+
+}
