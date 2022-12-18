@@ -6,22 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>engageBay</title>
-    <link rel="shortcut icon" href="engagebay.icon.webp">
+    <link rel="shortcut icon" href="./icons/engagebay.icon.webp">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./hover.css">
-    <link rel="stylesheet" href="./navigation.css">
+    <link rel="stylesheet" href="./CSS/hover.css">
+    <link rel="stylesheet" href="./CSS/navigation.css">
 </head>
 
 <body>
 
-    <nav>
-
+    <nav style="position: sticky; background-color: white;padding: 1rem 0;">
         <div class="nav_Bar">
-            <a class="nav_Bar_Logo" href="/index.html"><img src="engagebay-logo.svg" alt=""></a>
+            <a class="nav_Bar_Logo" href="/index.html"><img src="./icons/engagebay-logo.svg" alt=""></a>
             <div class="nav_Bar_Box">
                 <ul class="main_Nav_Bar" style="list-style-type: none;">
                     <li class="product-hover">
-                        <a href="./product.html">Product </a>
+                        <a href="./html/product.html">Product </a>
                         <svg style="width: 11px; margin-left: 5px;margin-top: 4px; opacity: 0.6;" aria-hidden="true"
                             focusable="false" data-prefix="fas" data-icon="chevron-down" role="img"
                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon-down-caret">
@@ -389,7 +388,7 @@
                                             </li>
                                             <li class="dcompareallplan">
                                                 <a onclick="openWaUrl('nav_products_compare',{'nav':'nav_products_compare'},'/pricing/all-in-one')"
-                                                    href="/pricing/all-in-one" class="dropdown-card"
+                                                    href="./html/pricing.html" class="dropdown-card"
                                                     rel="noopener noreferrer">
                                                     <svg aria-hidden="true" focusable="false" data-prefix="fal"
                                                         data-icon="cog" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -417,20 +416,20 @@
                         </div>
                     </li>
                     <li>
-                        <a href="./pricing.html">Pricing</a>
+                        <a href="./html/pricing.html">Pricing</a>
                     </li>
                     <li>
-                        <a href="./blog.html">Blog</a>
+                        <a href="./html/blog.html">Blog</a>
                     </li>
                     <li>
-                        <a class="afterlogin" href="./login.html" style="color: rgb(231, 74, 74);">Login</a>
+                        <a class="afterlogin" href="./html/login.html" style="color: rgb(231, 74, 74);">Login</a>
                     </li>
                     <li>
                         <a href="https://meetings.engagebay.com/book-demo-free"><button class="nav_Button purple">Free
                                 Demo</button></a>
                     </li>
                     <li>
-                        <a href="./signup.html"><button class="nav_Button orange">Free Signup</button></a>
+                        <a href="./html/signup.html"><button class="nav_Button orange">Free Signup</button></a>
                     </li>
                 </ul>
             </div>
@@ -441,12 +440,12 @@
 
 
                 <div class="smallnav_Bar">
-                    <a class="nav_Bar_Logon" href="/index.html"><img src="engagebay-logo.svg" alt=""></a>
+                    <a class="nav_Bar_Logon" href="/index.html"><img src="./icons/engagebay-logo.svg" alt=""></a>
                     <div class="nav_Bar_Boxn">
                         <ul class="main_Nav_Barn" style="list-style-type: none;">
                             <hr>
                             <li class="product-hovern">
-                                <a href="./product.html">Product </a>
+                                <a href="./html/product.html">Product </a>
                                 <svg style="width: 11px; margin-left: 5px;margin-top: 4px; opacity: 0.6;"
                                     aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down"
                                     role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
@@ -460,15 +459,16 @@
                             </li>
                             <hr>
                             <li>
-                                <a href="./pricing.html">Pricing</a>
+                                <a href="./html/pricing.html">Pricing</a>
                             </li>
                             <hr>
                             <li>
-                                <a href="./blog.html">Blog</a>
+                                <a href="./html/blog.html">Blog</a>
                             </li>
                             <hr>
                             <li>
-                                <a href="./login.html">Login</a>
+                                <a class="afterlogin" href="./html/login.html"
+                                    style="color: rgb(231, 74, 74);">Login</a>
                             </li>
                             <hr>
                             <li>
@@ -479,7 +479,7 @@
                             </li>
 
                             <li>
-                                <a href="./signup.html">
+                                <a href="./html/signup.html">
                                     <div class="nav_Buttonn orangen">Free Signup</div>
                                 </a>
                             </li>
@@ -488,14 +488,10 @@
                 </div>
 
             </div>
-
         </div>
-
     </nav>
 
-
     <section class="getStarted">
-
         <div class="get_Started_Container">
             <div class="get_Started_Content ">
                 <h1 class="get_Started_heading1"> Market better. Sell faster.
@@ -785,7 +781,7 @@
             </div>
             <div class="singleSolutionallbox">
                 <div class="singleSolutionbox">
-                    <div>
+                    <div class="singleSolutionrow1">
                         <div>
                             <h3 class="">CRM Software</h3>
                             <p class="">Store unlimited contacts and build stronger relationships
@@ -878,7 +874,7 @@
                     </div>
                 </div>
                 <div class="singleSolutionbox">
-                    <div>
+                    <div class="singleSolutionrow1">
                         <div>
                             <h3 class="">CRM Software</h3>
                             <p class="">Store unlimited contacts and build stronger relationships
@@ -1360,7 +1356,6 @@
         </div>
 
     </section>
-
 
 
     <section class="bottomlogin">

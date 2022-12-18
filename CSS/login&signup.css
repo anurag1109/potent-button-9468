@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url(./engagebay.icon.webp);
+    background-image: url(../icons/engagebay.icon.webp);
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(70px)

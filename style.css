@@ -543,3 +543,36 @@ nav {
     }
 
 }
+
+
+@media screen and (min-width:300px) and (max-width:1080px) {
+
+    .allStakesLogo {
+        flex-direction: column;
+        width: fit-content;
+        margin: auto;
+
+    }
+
+    .awardlist {
+        flex-wrap: wrap;
+    }
+
+    .cardrow {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .singleSolutionallbox {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .singleSolutionbox {
+        width: 60%;
+        margin: auto;
+    }
+
+    .footer-widget {
+        padding: 5px;
+    }
+}

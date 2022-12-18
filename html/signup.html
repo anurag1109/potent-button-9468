@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EngageBay - Signup</title>
-    <link rel="stylesheet" href="./login&signup.css">
+    <link rel="stylesheet" href="../CSS/login&signup.css">
 </head>
 
 <body>
@@ -25,8 +25,8 @@
                 <input type="password" placeholder="Password" id="password" required>
                 <input type="submit" value="SIGN UP" id="submit">
                 <div>
-                    <p><a href="./login.html">Forgot Password?</a></p>
-                    <p>Already have an account? <a href="./login.html">Login</a></p>
+                    <p><a href="../html/login.html">Forgot Password?</a></p>
+                    <p>Already have an account? <a href="../html/login.html">Login</a></p>
                     <p><a href="https://www.engagebay.com/legal/privacy-policy" target="_blank">Privacy Policy </a></p>
                 </div>
             </form>
@@ -46,42 +46,6 @@
     </div>
 </body>
 
+<script src="../script/signup.js"></script>
+
 </html>
-
-<script>
-
-    let flag = false;
-    document.querySelector("form").addEventListener("submit", signupfunc)
-    let singuparr = JSON.parse(localStorage.getItem("signupdata")) || []
-    function signupfunc() {
-        event.preventDefault()
-        let signobj = {
-            name: document.querySelector("#name").value,
-            username: document.querySelector("#username").value,
-            website: document.querySelector("#website").value,
-            password: document.querySelector("#password").value,
-
-        }
-        if (singuparr.length > 0) {
-            emailcheck(signobj.username, signobj)
-        }
-        if (flag == false) {
-            singuparr.push(signobj)
-            localStorage.setItem("signupdata", JSON.stringify(singuparr))
-            window.location.href = "login.html"
-            alert("Email registered Successfully")
-
-        }
-        flag = false
-    }
-    function emailcheck(data, signobj) {
-        let check = JSON.parse(localStorage.getItem("signupdata"))
-        check.forEach(function (el) {
-            if (el.username === data) {
-                let x = alert("Email already registered")
-                flag = true
-            }
-        })
-    }
-
-</script>

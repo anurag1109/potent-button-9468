@@ -10,7 +10,7 @@ function loginfunc() {
         if (el.username == username) {
             if (el.password == password) {
                 localStorage.setItem("email", JSON.stringify(el))
-                window.location.href = "index.html"
+                window.location.href = "../index.html"
                 flag = true
             }
         }
@@ -23,3 +23,10 @@ function loginfunc() {
     else
         alert("Wrong credentials")
 }
+
+
+const logout = document.querySelector(".logout")
+logout.addEventListener("click", () => {
+    alert("Really want to logout ?")
+    localStorage.removeItem("email")
+})

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EngageBay - Login Page</title>
-    <link rel="stylesheet" href="./login&signup.css">
+    <link rel="stylesheet" href="../CSS/login&signup.css">
 </head>
 
 <body>
@@ -24,8 +24,9 @@
                 <input type="password" placeholder="Password" id="password" required>
                 <input type="submit" value="LOGIN" id="submit">
                 <div>
-                    <p><a href="./signup.html">Forgot Password?</a></p>
-                    <p>Create new account? <a href="./signup.html">Sign Up</a></p>
+                    <p><a href="../html/signup.html">Forgot Password?</a></p>
+                    <p>Create new account? <a href="../html/signup.html">Sign Up</a></p>
+                    <p><a href="../index.html" class="logout" style="color: red;">Log out</a></p>
                     <p><a href="https://www.engagebay.com/legal/privacy-policy" target="_blank">Privacy Policy </a></p>
                 </div>
             </form>
@@ -44,33 +45,9 @@
         </div> -->
     </div>
 
-    <script src="script.js"></script>
-    <script src="./script/login.js"></script>
+    <script src="../script.js"></script>
+    <script src="../script/login.js"></script>
 </body>
 
 
 </html>
-<!-- <script>
-    let logindata = JSON.parse(localStorage.getItem("signupdata"))
-    document.querySelector("form").addEventListener("submit", loginfunc)
-
-    function loginfunc() {
-        let username = document.querySelector("#username").value
-        let password = document.querySelector("#password").value
-        let flag = false
-        logindata.forEach((el) => {
-            if (el.username == username) {
-                if (el.password == password) {
-                    localStorage.setItem("email", JSON.stringify(el))
-                    window.location.href = "index.html"
-                    flag = true
-                }
-            }
-
-        })
-        if (flag == true)
-            alert("Login successgully")
-        else
-            alert("Wrong credentials")
-    }
-</script> -->
